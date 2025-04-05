@@ -1,0 +1,58 @@
+%YAML 1.1
+---
+
+# AF-Packet configuration
+af-packet:
+  - interface: eth0
+    cluster-id: 200
+    cluster-type: cluster_flow
+    defrag: yes
+    use-mmap: yes
+    mmap-size: 67108864      # 64MB in bytes
+    buffer-size: 134217728    # 128MB in bytes
+    block-size: 69632        # 17 * 4096 = 69632 (next multiple of pagesize above 65648)
+    block-timeout: 10
+    tpacket-v3: yes
+    ring-size: 2048
+    use-fanout: no
+
+default-rule-path: /var/lib/suricata/rules
+
+rule-files:
+  - suricata.rules
+  - emerging-threats.rules
+
+
+app-layer:
+  protocols:
+    dnp3:
+      enabled: yes
+      detection-ports:
+        dp: 20000  # DNP3 typically uses TCP/UDP 20000
+      detection-enabled: yes  # Add this to enable detection
+
+    modbus:
+      enabled: yes
+      detection-ports:
+        dp: 502  # Modbus typically uses TCP/UDP 502
+      detection-enabled: yes  #
+      
+outputs:
+    - eve-log:
+        enabled: yes
+        filetype: regular
+        filename: eve.json
+        types:
+          - alert
+          - http
+          - dns
+          - tls
+          - files
+          - ssh
+          - smtp
+
+stats:
+  enabled: yes
+  interval: 10
+
+

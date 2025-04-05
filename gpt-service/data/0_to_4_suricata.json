@@ -1,0 +1,84 @@
+[
+    {
+      "timestamp": "2025-02-22T10:15:23.456",
+      "event_type": "http",
+      "src_ip": "192.168.1.100",
+      "src_port": 49123,
+      "dest_ip": "203.0.113.45",
+      "dest_port": 443,
+      "proto": "TCP",
+      "http": {
+        "hostname": "suspicious-downloads.example.com",
+        "url": "/files/invoice_details.exe",
+        "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "http_method": "GET",
+        "protocol": "HTTP/1.1",
+        "status": 200,
+        "length": 2457600
+      },
+      "alert": {
+        "signature": "ET MALWARE Suspicious EXE Download",
+        "signature_id": 2027234,
+        "category": "Potentially Bad Traffic",
+        "severity": 2
+      },
+      "tls": {
+        "sni": "suspicious-downloads.example.com",
+        "version": "TLS 1.3",
+        "ja3": "a0e9f5d64349fb13191bc781f81f42e1"
+      }
+    },
+    {
+      "timestamp": "2025-02-22T10:18:45.789",
+      "event_type": "http",
+      "src_ip": "192.168.1.100",
+      "src_port": 49125,
+      "dest_ip": "198.51.100.67",
+      "dest_port": 80,
+      "proto": "TCP",
+      "http": {
+        "hostname": "download.freetools.net",
+        "url": "/software/totally-legitimate-tool.zip",
+        "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "http_method": "GET",
+        "protocol": "HTTP/1.1",
+        "status": 200,
+        "length": 1548232
+      },
+      "alert": {
+        "signature": "ET POLICY ZIP file download over HTTP",
+        "signature_id": 2027235,
+        "category": "Policy Violation",
+        "severity": 3
+      }
+    },
+    {
+      "timestamp": "2025-02-22T11:05:12.345",
+      "event_type": "http",
+      "src_ip": "192.168.1.100",
+      "src_port": 49128,
+      "dest_ip": "203.0.113.89",
+      "dest_port": 443,
+      "proto": "TCP",
+      "http": {
+        "hostname": "cdn.malicious-content.com",
+        "url": "/download/ransomware.pdf.js",
+        "http_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "http_method": "GET",
+        "protocol": "HTTP/1.1",
+        "status": 200,
+        "length": 856433
+      },
+      "alert": {
+        "signature": "ET CURRENT_EVENTS Suspicious PDF Javascript Download",
+        "signature_id": 2027236,
+        "category": "Potentially Bad Traffic",
+        "severity": 1
+      },
+      "tls": {
+        "sni": "cdn.malicious-content.com",
+        "version": "TLS 1.2",
+        "ja3": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9"
+      }
+    }
+  ]
