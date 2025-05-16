@@ -12,7 +12,7 @@ $ docker-compose -f generate-indexer-certs.yml run --rm generator
 ```
 3) Start the environment with docker-compose:
 
-- In the foregroud:
+- In the foreground:
 ```
 $ docker-compose up
 ```
@@ -20,5 +20,7 @@ $ docker-compose up
 ```
 $ docker-compose up -d
 ```
+
+4) Access to the Wazuh Dashboard on: `https://localhost`
 
 The environment takes about 1 minute to get up (depending on your Docker host) for the first time since Wazuh Indexer must be started for the first time and the indexes and index patterns must be generated.
