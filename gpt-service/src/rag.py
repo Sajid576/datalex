@@ -1,11 +1,10 @@
 from smolagents import OpenAIServerModel, CodeAgent, ToolCallingAgent, HfApiModel, tool, GradioUI
-from dotenv import load_dotenv
+
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import OllamaEmbeddings, HuggingFaceEmbeddings
-from ingest_logs import initiate_vectordb
+# from ingest_logs import initiate_vectordb
 import ollama
 import gradio as gr
-import os
 import pandas as pd
 import time
 import psutil
@@ -14,16 +13,12 @@ import threading
 from datetime import datetime
 import queue
 import requests
+from src.utils.env import get_env
 
+reasoning_model_id = getenv("REASONING_MODEL_ID")
+default_tool_model_id = getenv("TOOL_MODEL_ID")
+virustotal_api_key = getenv("VIRUSTOTAL_API_KEY")
 
-load_dotenv()
-
-reasoning_model_id = os.getenv("REASONING_MODEL_ID")
-default_tool_model_id = os.getenv("TOOL_MODEL_ID")
-# Add VirusTotal API key to your .env file
-virustotal_api_key = os.getenv("VIRUSTOTAL_API_KEY")
-
-# Available models for selection
 available_models = ["qwen2.5:7b-instruct-q4_K_M", "llama3:8b"]
 
 # Default system prompt

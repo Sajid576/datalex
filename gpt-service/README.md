@@ -2,6 +2,21 @@
 
 This project showcases the power of DeepSeek's R1 model in an agentic RAG (Retrieval-Augmented Generation) system - built using Smolagents from HuggingFace. R1, known for its exceptional reasoning capabilities and instruction-following abilities, serves as the core reasoning engine. The system combines R1's strengths with efficient document retrieval and a separate conversation model to create a powerful, context-aware question-answering system.
 
+## Mongodb Database Setup
+To set up the Mongodb database, follow these steps:
+
+
+1. Create a new directory named 'secrets'.
+2. Create a Keyfile.
+``
+openssl rand -base64 756 > /Users/mac/Desktop/workspace/datalex/gpt-service/secrets/mongodb-keyfile
+``
+3. Set Permissions.
+``
+chmod 777 ./secrets
+``
+
+
 ## Setup
 
 1. Clone the repository
@@ -31,8 +46,6 @@ cp .env.example .env
 
 ### Using Ollama (Local Inference)
 ```env
-USE_HUGGINGFACE=no
-HUGGINGFACE_API_TOKEN=
 REASONING_MODEL_ID=deepseek-r1:7b-8k
 TOOL_MODEL_ID=qwen2.5:14b-instruct-8k
 ```

@@ -4,8 +4,7 @@ from langchain_community.vectorstores import Chroma,FAISS
 from langchain.schema import Document
 from langchain_community.embeddings import OllamaEmbeddings,HuggingFaceEmbeddings
 
-from dotenv import load_dotenv
-import os
+
 import shutil
 import json
 from typing import List, Dict, Any
@@ -177,19 +176,16 @@ def initiate_vectordb():
     data_dir = os.path.join(os.path.dirname(__file__), "data")
     db_dir = os.path.join(os.path.dirname(__file__), "vector_db")
     
-    # Process Suricata logs
     print("Loading and processing Suricata logs...")
-    # chunks = load_and_process_suricata_logs(data_dir)
-    # print(f"Created {len(chunks)} chunks from logs")
+   
     chunks = setup_rag_pipeline(data_dir)
     # Create vector store
     print("Creating vector store...")
-    vectordb = create_vector_store(chunks, db_dir)
+    vector_db = create_vector_store(chunks, db_dir)
 
-    test_embeddings(vectordb)
+    test_embeddings(vector_db)
 
-    return vectordb
-    # print(f"Vector store created and persisted at {db_dir}")
+    print(f"Vector store created and persisted at {db_dir}")
 
 # if __name__ == "__main__":
 #     main()
