@@ -1,0 +1,26 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/suricata/eve.json
+  json.keys_under_root: true
+  json.add_error_key: true
+  json.message_key: event_type
+
+output.elasticsearch:
+  hosts: ["https://wazuh.indexer:9200"]
+  username: "admin"
+  password: "admin"
+  ssl.certificate_authorities: ["/etc/ssl/root-ca.pem"]
+  ssl.certificate: "/etc/ssl/filebeat.pem"
+  ssl.key: "/etc/ssl/filebeat.key"
+
+processors:
+  - add_host_metadata:
+      when.not.contains.tags: forwarded
+  - add_cloud_metadata: ~
+  - add_docker_metadata: ~
+  - decode_json_fields:
+      fields: ["message"]
+      target: ""
+      overwrite_keys: true
