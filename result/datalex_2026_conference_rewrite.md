@@ -28,7 +28,7 @@ In this paper, we develop **DataLex**, an offline, explainable, agentic SIEM fra
 3. A graph-based and vector-less RAG pipeline that emphasizes entity traversal, temporal windows, MITRE ATT&CK mappings, sparse keyword retrieval, and structured evidence validation instead of relying only on dense embeddings.
 4. A TOON-based log serialization layer that replaces JSON inside LLM prompts to reduce repeated key overhead in large log batches.
 5. A sandbox-backed zero-day triage path that escalates anomalous normal logs, suspicious files, URLs, command lines, or packet captures for controlled execution and behavioral feature extraction.
-6. An empirical baseline from the existing DataLex prototype demonstrating improved accuracy, recall, false-positive reduction, and response time compared with a traditional SIEM baseline.
+6. An empirical baseline from the existing DataLex prototype demonstrating improved accuracy, recall, false-positive reduction, and response time compared with Gen-AI based SIEM baseline.
 
 The remainder of this paper is organized as follows. Section II reviews related works. Section III describes the system environment and assumptions. Section IV presents the methodology and proposed DataLex framework. Section V discusses the performance evaluation. Section VI concludes the paper and outlines future research directions.
 
