@@ -1,0 +1,501 @@
+Query ID,Category,Query,Ground Truth,Model Response,Prediction,Confusion Matrix Class,Correct
+Q165,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 165),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q384,Benign Activity,Was the observed activity non-malicious? (log case 384),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q046,Network Anomaly,Was unusual outbound network traffic detected? (log case 046),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q157,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 157),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q054,Network Anomaly,Was there abnormal port scanning activity? (log case 054),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q073,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 073),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q316,Benign Activity,Was this event consistent with normal system activity? (log case 316),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q210,Network Anomaly,Was there abnormal port scanning activity? (log case 210),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q075,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 075),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q334,Benign Activity,Was this event consistent with normal system activity? (log case 334),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q404,Benign Activity,Did the logs indicate benign user behavior? (log case 404),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q416,Benign Activity,Did the logs indicate benign user behavior? (log case 416),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q093,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 093),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q216,Suspicious Process,Was potentially malicious process activity observed? (log case 216),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q480,Benign Activity,Was the observed activity non-malicious? (log case 480),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q060,Suspicious Process,Was potentially malicious process activity observed? (log case 060),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q369,Benign Activity,Was the observed activity non-malicious? (log case 369),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q164,Suspicious Process,Did the endpoint execute an unusual command? (log case 164),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q211,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 211),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q252,Benign Activity,Was the observed activity non-malicious? (log case 252),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q444,Benign Activity,Was the observed activity non-malicious? (log case 444),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q321,Benign Activity,Was the observed activity non-malicious? (log case 321),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q290,Benign Activity,Did the logs indicate benign user behavior? (log case 290),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q390,Benign Activity,Was the observed activity non-malicious? (log case 390),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q008,Suspicious Process,Did the endpoint execute an unusual command? (log case 008),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q463,Benign Activity,Was this event consistent with normal system activity? (log case 463),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q250,Benign Activity,Was this event consistent with normal system activity? (log case 250),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q229,Benign Activity,Was this event consistent with normal system activity? (log case 229),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q246,Benign Activity,Was the observed activity non-malicious? (log case 246),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q212,Suspicious Process,Did the endpoint execute an unusual command? (log case 212),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q130,Network Anomaly,Was unusual outbound network traffic detected? (log case 130),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q163,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 163),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q224,Benign Activity,Did the logs indicate benign user behavior? (log case 224),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q042,Network Anomaly,Was there abnormal port scanning activity? (log case 042),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q279,Benign Activity,Was the observed activity non-malicious? (log case 279),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q022,Network Anomaly,Was unusual outbound network traffic detected? (log case 022),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q435,Benign Activity,Was the observed activity non-malicious? (log case 435),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q069,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 069),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q228,Benign Activity,Was the observed activity non-malicious? (log case 228),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q152,Suspicious Process,Did the endpoint execute an unusual command? (log case 152),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q370,Benign Activity,Was this event consistent with normal system activity? (log case 370),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q218,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 218),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q155,Privilege Escalation,Was an unauthorized privileged command executed? (log case 155),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q178,Network Anomaly,Was unusual outbound network traffic detected? (log case 178),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q398,Benign Activity,Did the logs indicate benign user behavior? (log case 398),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q140,Suspicious Process,Did the endpoint execute an unusual command? (log case 140),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q142,Network Anomaly,Was unusual outbound network traffic detected? (log case 142),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q327,Benign Activity,Was the observed activity non-malicious? (log case 327),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q176,Suspicious Process,Did the endpoint execute an unusual command? (log case 176),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q171,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 171),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q089,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 089),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q097,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 097),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q440,Benign Activity,Did the logs indicate benign user behavior? (log case 440),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q304,Benign Activity,Was this event consistent with normal system activity? (log case 304),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q051,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 051),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q200,Suspicious Process,Did the endpoint execute an unusual command? (log case 200),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q298,Benign Activity,Was this event consistent with normal system activity? (log case 298),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q132,Suspicious Process,Was potentially malicious process activity observed? (log case 132),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q121,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 121),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q359,Benign Activity,Did the logs indicate benign user behavior? (log case 359),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q181,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 181),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q371,Benign Activity,Did the logs indicate benign user behavior? (log case 371),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q038,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 038),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q161,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 161),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q005,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 005),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q094,Network Anomaly,Was unusual outbound network traffic detected? (log case 094),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q305,Benign Activity,Did the logs indicate benign user behavior? (log case 305),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q189,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 189),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q375,Benign Activity,Was the observed activity non-malicious? (log case 375),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q454,Benign Activity,Was this event consistent with normal system activity? (log case 454),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q095,Privilege Escalation,Was an unauthorized privileged command executed? (log case 095),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q469,Benign Activity,Was this event consistent with normal system activity? (log case 469),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q293,Benign Activity,Did the logs indicate benign user behavior? (log case 293),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q341,Benign Activity,Did the logs indicate benign user behavior? (log case 341),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q408,Benign Activity,Was the observed activity non-malicious? (log case 408),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q409,Benign Activity,Was this event consistent with normal system activity? (log case 409),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q188,Suspicious Process,Did the endpoint execute an unusual command? (log case 188),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q335,Benign Activity,Did the logs indicate benign user behavior? (log case 335),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q214,Network Anomaly,Was unusual outbound network traffic detected? (log case 214),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q128,Suspicious Process,Did the endpoint execute an unusual command? (log case 128),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q012,Suspicious Process,Was potentially malicious process activity observed? (log case 012),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q007,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 007),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q443,Benign Activity,Did the logs indicate benign user behavior? (log case 443),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q247,Benign Activity,Was this event consistent with normal system activity? (log case 247),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q397,Benign Activity,Was this event consistent with normal system activity? (log case 397),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q426,Benign Activity,Was the observed activity non-malicious? (log case 426),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q346,Benign Activity,Was this event consistent with normal system activity? (log case 346),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q090,Network Anomaly,Was there abnormal port scanning activity? (log case 090),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q427,Benign Activity,Was this event consistent with normal system activity? (log case 427),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q027,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 027),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q078,Network Anomaly,Was there abnormal port scanning activity? (log case 078),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q185,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 185),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q263,Benign Activity,Did the logs indicate benign user behavior? (log case 263),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q208,Suspicious Process,Was a suspicious process execution detected? (log case 208),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q183,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 183),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q096,Suspicious Process,Was potentially malicious process activity observed? (log case 096),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q101,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 101),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q420,Benign Activity,Was the observed activity non-malicious? (log case 420),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q395,Benign Activity,Did the logs indicate benign user behavior? (log case 395),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q156,Suspicious Process,Was potentially malicious process activity observed? (log case 156),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q231,Benign Activity,Was the observed activity non-malicious? (log case 231),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q363,Benign Activity,Was the observed activity non-malicious? (log case 363),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q238,Benign Activity,Was this event consistent with normal system activity? (log case 238),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q354,Benign Activity,Was the observed activity non-malicious? (log case 354),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q086,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 086),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q324,Benign Activity,Was the observed activity non-malicious? (log case 324),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q172,Suspicious Process,Was a suspicious process execution detected? (log case 172),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q394,Benign Activity,Was this event consistent with normal system activity? (log case 394),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q154,Network Anomaly,Was unusual outbound network traffic detected? (log case 154),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q314,Benign Activity,Did the logs indicate benign user behavior? (log case 314),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q039,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 039),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q393,Benign Activity,Was the observed activity non-malicious? (log case 393),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q070,Network Anomaly,Was unusual outbound network traffic detected? (log case 070),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q107,Privilege Escalation,Was an unauthorized privileged command executed? (log case 107),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q349,Benign Activity,Was this event consistent with normal system activity? (log case 349),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q490,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 490),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q429,Benign Activity,Was the observed activity non-malicious? (log case 429),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q159,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 159),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q032,Suspicious Process,Did the endpoint execute an unusual command? (log case 032),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q245,Benign Activity,Did the logs indicate benign user behavior? (log case 245),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q009,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 009),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q268,Benign Activity,Was this event consistent with normal system activity? (log case 268),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q486,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 486),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q234,Benign Activity,Was the observed activity non-malicious? (log case 234),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q262,Benign Activity,Was this event consistent with normal system activity? (log case 262),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q402,Benign Activity,Was the observed activity non-malicious? (log case 402),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q292,Benign Activity,Was this event consistent with normal system activity? (log case 292),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q199,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 199),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q133,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 133),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q325,Benign Activity,Was this event consistent with normal system activity? (log case 325),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q323,Benign Activity,Did the logs indicate benign user behavior? (log case 323),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q003,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 003),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q019,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 019),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q489,Suspicious Process,Was potentially malicious process activity observed? (log case 489),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q264,Benign Activity,Was the observed activity non-malicious? (log case 264),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q077,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 077),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q254,Benign Activity,Did the logs indicate benign user behavior? (log case 254),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q315,Benign Activity,Was the observed activity non-malicious? (log case 315),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q352,Benign Activity,Was this event consistent with normal system activity? (log case 352),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q472,Benign Activity,Was this event consistent with normal system activity? (log case 472),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q144,Suspicious Process,Was potentially malicious process activity observed? (log case 144),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q450,Benign Activity,Was the observed activity non-malicious? (log case 450),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q067,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 067),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q180,Suspicious Process,Was potentially malicious process activity observed? (log case 180),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q134,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 134),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q145,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 145),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q407,Benign Activity,Did the logs indicate benign user behavior? (log case 407),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q281,Benign Activity,Did the logs indicate benign user behavior? (log case 281),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q270,Benign Activity,Was the observed activity non-malicious? (log case 270),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q467,Benign Activity,Did the logs indicate benign user behavior? (log case 467),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q209,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 209),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q146,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 146),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q433,Benign Activity,Was this event consistent with normal system activity? (log case 433),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q278,Benign Activity,Did the logs indicate benign user behavior? (log case 278),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q342,Benign Activity,Was the observed activity non-malicious? (log case 342),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q466,Benign Activity,Was this event consistent with normal system activity? (log case 466),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q318,Benign Activity,Was the observed activity non-malicious? (log case 318),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q018,Network Anomaly,Was there abnormal port scanning activity? (log case 018),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q449,Benign Activity,Did the logs indicate benign user behavior? (log case 449),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q021,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 021),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q131,Privilege Escalation,Was an unauthorized privileged command executed? (log case 131),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q239,Benign Activity,Did the logs indicate benign user behavior? (log case 239),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q297,Benign Activity,Was the observed activity non-malicious? (log case 297),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q287,Benign Activity,Did the logs indicate benign user behavior? (log case 287),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q337,Benign Activity,Was this event consistent with normal system activity? (log case 337),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q301,Benign Activity,Was this event consistent with normal system activity? (log case 301),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q150,Network Anomaly,Was there abnormal port scanning activity? (log case 150),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q204,Suspicious Process,Was potentially malicious process activity observed? (log case 204),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q388,Benign Activity,Was this event consistent with normal system activity? (log case 388),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q399,Benign Activity,Was the observed activity non-malicious? (log case 399),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q191,Privilege Escalation,Was an unauthorized privileged command executed? (log case 191),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q202,Network Anomaly,Was unusual outbound network traffic detected? (log case 202),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q419,Benign Activity,Did the logs indicate benign user behavior? (log case 419),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q015,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 015),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q056,Suspicious Process,Did the endpoint execute an unusual command? (log case 056),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q076,Suspicious Process,Was a suspicious process execution detected? (log case 076),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q285,Benign Activity,Was the observed activity non-malicious? (log case 285),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q040,Suspicious Process,Was a suspicious process execution detected? (log case 040),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q392,Benign Activity,Did the logs indicate benign user behavior? (log case 392),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q461,Benign Activity,Did the logs indicate benign user behavior? (log case 461),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q258,Benign Activity,Was the observed activity non-malicious? (log case 258),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q179,Privilege Escalation,Was an unauthorized privileged command executed? (log case 179),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q213,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 213),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q473,Benign Activity,Did the logs indicate benign user behavior? (log case 473),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q421,Benign Activity,Was this event consistent with normal system activity? (log case 421),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q068,Suspicious Process,Did the endpoint execute an unusual command? (log case 068),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q100,Suspicious Process,Was a suspicious process execution detected? (log case 100),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q477,Benign Activity,Was the observed activity non-malicious? (log case 477),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q098,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 098),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q197,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 197),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q340,Benign Activity,Was this event consistent with normal system activity? (log case 340),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q289,Benign Activity,Was this event consistent with normal system activity? (log case 289),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q319,Benign Activity,Was this event consistent with normal system activity? (log case 319),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q458,Benign Activity,Did the logs indicate benign user behavior? (log case 458),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q125,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 125),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q243,Benign Activity,Was the observed activity non-malicious? (log case 243),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q043,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 043),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q061,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 061),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q193,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 193),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q423,Benign Activity,Was the observed activity non-malicious? (log case 423),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q267,Benign Activity,Was the observed activity non-malicious? (log case 267),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q255,Benign Activity,Was the observed activity non-malicious? (log case 255),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q385,Benign Activity,Was this event consistent with normal system activity? (log case 385),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q498,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 498),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q227,Benign Activity,Did the logs indicate benign user behavior? (log case 227),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q496,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 496),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q114,Network Anomaly,Was there abnormal port scanning activity? (log case 114),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q020,Suspicious Process,Did the endpoint execute an unusual command? (log case 020),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q219,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 219),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q119,Privilege Escalation,Was an unauthorized privileged command executed? (log case 119),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q365,Benign Activity,Did the logs indicate benign user behavior? (log case 365),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q386,Benign Activity,Did the logs indicate benign user behavior? (log case 386),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q438,Benign Activity,Was the observed activity non-malicious? (log case 438),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q294,Benign Activity,Was the observed activity non-malicious? (log case 294),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q494,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 494),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q379,Benign Activity,Was this event consistent with normal system activity? (log case 379),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q242,Benign Activity,Did the logs indicate benign user behavior? (log case 242),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q447,Benign Activity,Was the observed activity non-malicious? (log case 447),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q436,Benign Activity,Was this event consistent with normal system activity? (log case 436),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q028,Suspicious Process,Was a suspicious process execution detected? (log case 028),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q221,Benign Activity,Did the logs indicate benign user behavior? (log case 221),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q470,Benign Activity,Did the logs indicate benign user behavior? (log case 470),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q087,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 087),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q362,Benign Activity,Did the logs indicate benign user behavior? (log case 362),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q104,Suspicious Process,Did the endpoint execute an unusual command? (log case 104),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q482,Benign Activity,Did the logs indicate benign user behavior? (log case 482),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q026,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 026),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q308,Benign Activity,Did the logs indicate benign user behavior? (log case 308),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q168,Suspicious Process,Was potentially malicious process activity observed? (log case 168),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q451,Benign Activity,Was this event consistent with normal system activity? (log case 451),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q476,Benign Activity,Did the logs indicate benign user behavior? (log case 476),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q411,Benign Activity,Was the observed activity non-malicious? (log case 411),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q222,Benign Activity,Was the observed activity non-malicious? (log case 222),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q417,Benign Activity,Was the observed activity non-malicious? (log case 417),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q106,Network Anomaly,Was unusual outbound network traffic detected? (log case 106),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q372,Benign Activity,Was the observed activity non-malicious? (log case 372),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q091,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 091),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q453,Benign Activity,Was the observed activity non-malicious? (log case 453),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q169,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 169),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q241,Benign Activity,Was this event consistent with normal system activity? (log case 241),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q403,Benign Activity,Was this event consistent with normal system activity? (log case 403),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q049,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 049),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q105,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 105),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q207,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 207),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q248,Benign Activity,Did the logs indicate benign user behavior? (log case 248),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q201,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 201),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q063,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 063),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q478,Benign Activity,Was this event consistent with normal system activity? (log case 478),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q148,Suspicious Process,Was a suspicious process execution detected? (log case 148),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q147,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 147),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q226,Benign Activity,Was this event consistent with normal system activity? (log case 226),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q422,Benign Activity,Did the logs indicate benign user behavior? (log case 422),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q485,Benign Activity,Did the logs indicate benign user behavior? (log case 485),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q492,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 492),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q452,Benign Activity,Did the logs indicate benign user behavior? (log case 452),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q110,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 110),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q295,Benign Activity,Was this event consistent with normal system activity? (log case 295),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q441,Benign Activity,Was the observed activity non-malicious? (log case 441),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q122,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 122),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q266,Benign Activity,Did the logs indicate benign user behavior? (log case 266),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q170,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 170),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q382,Benign Activity,Was this event consistent with normal system activity? (log case 382),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q035,Privilege Escalation,Was an unauthorized privileged command executed? (log case 035),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q269,Benign Activity,Did the logs indicate benign user behavior? (log case 269),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q031,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 031),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q401,Benign Activity,Did the logs indicate benign user behavior? (log case 401),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q462,Benign Activity,Was the observed activity non-malicious? (log case 462),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q355,Benign Activity,Was this event consistent with normal system activity? (log case 355),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q383,Benign Activity,Did the logs indicate benign user behavior? (log case 383),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q011,Privilege Escalation,Was an unauthorized privileged command executed? (log case 011),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q174,Network Anomaly,Was there abnormal port scanning activity? (log case 174),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q343,Benign Activity,Was this event consistent with normal system activity? (log case 343),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q116,Suspicious Process,Did the endpoint execute an unusual command? (log case 116),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q364,Benign Activity,Was this event consistent with normal system activity? (log case 364),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q062,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 062),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q232,Benign Activity,Was this event consistent with normal system activity? (log case 232),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q265,Benign Activity,Was this event consistent with normal system activity? (log case 265),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q225,Benign Activity,Was the observed activity non-malicious? (log case 225),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q313,Benign Activity,Was this event consistent with normal system activity? (log case 313),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q357,Benign Activity,Was the observed activity non-malicious? (log case 357),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q160,Suspicious Process,Was a suspicious process execution detected? (log case 160),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q103,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 103),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q311,Benign Activity,Did the logs indicate benign user behavior? (log case 311),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q373,Benign Activity,Was this event consistent with normal system activity? (log case 373),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q345,Benign Activity,Was the observed activity non-malicious? (log case 345),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q338,Benign Activity,Did the logs indicate benign user behavior? (log case 338),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q366,Benign Activity,Was the observed activity non-malicious? (log case 366),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q085,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 085),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q282,Benign Activity,Was the observed activity non-malicious? (log case 282),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q244,Benign Activity,Was this event consistent with normal system activity? (log case 244),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q066,Network Anomaly,Was there abnormal port scanning activity? (log case 066),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q065,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 065),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q273,Benign Activity,Was the observed activity non-malicious? (log case 273),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q424,Benign Activity,Was this event consistent with normal system activity? (log case 424),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q249,Benign Activity,Was the observed activity non-malicious? (log case 249),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q044,Suspicious Process,Did the endpoint execute an unusual command? (log case 044),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q418,Benign Activity,Was this event consistent with normal system activity? (log case 418),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q376,Benign Activity,Was this event consistent with normal system activity? (log case 376),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q124,Suspicious Process,Was a suspicious process execution detected? (log case 124),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q030,Network Anomaly,Was there abnormal port scanning activity? (log case 030),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q123,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 123),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q158,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 158),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q356,Benign Activity,Did the logs indicate benign user behavior? (log case 356),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q331,Benign Activity,Was this event consistent with normal system activity? (log case 331),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q010,Network Anomaly,Was unusual outbound network traffic detected? (log case 010),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q251,Benign Activity,Did the logs indicate benign user behavior? (log case 251),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q166,Network Anomaly,Was unusual outbound network traffic detected? (log case 166),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q307,Benign Activity,Was this event consistent with normal system activity? (log case 307),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q001,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 001),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q272,Benign Activity,Did the logs indicate benign user behavior? (log case 272),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q277,Benign Activity,Was this event consistent with normal system activity? (log case 277),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q083,Privilege Escalation,Was an unauthorized privileged command executed? (log case 083),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q192,Suspicious Process,Was potentially malicious process activity observed? (log case 192),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q348,Benign Activity,Was the observed activity non-malicious? (log case 348),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q474,Benign Activity,Was the observed activity non-malicious? (log case 474),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q400,Benign Activity,Was this event consistent with normal system activity? (log case 400),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q320,Benign Activity,Did the logs indicate benign user behavior? (log case 320),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q153,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 153),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q055,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 055),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q260,Benign Activity,Did the logs indicate benign user behavior? (log case 260),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q092,Suspicious Process,Did the endpoint execute an unusual command? (log case 092),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q257,Benign Activity,Did the logs indicate benign user behavior? (log case 257),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q431,Benign Activity,Did the logs indicate benign user behavior? (log case 431),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q002,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 002),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q460,Benign Activity,Was this event consistent with normal system activity? (log case 460),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q081,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 081),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q223,Benign Activity,Was this event consistent with normal system activity? (log case 223),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q432,Benign Activity,Was the observed activity non-malicious? (log case 432),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q499,Network Anomaly,Was unusual outbound network traffic detected? (log case 499),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q456,Benign Activity,Was the observed activity non-malicious? (log case 456),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q329,Benign Activity,Did the logs indicate benign user behavior? (log case 329),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q405,Benign Activity,Was the observed activity non-malicious? (log case 405),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q437,Benign Activity,Did the logs indicate benign user behavior? (log case 437),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q059,Privilege Escalation,Was an unauthorized privileged command executed? (log case 059),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q006,Network Anomaly,Was there abnormal port scanning activity? (log case 006),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q284,Benign Activity,Did the logs indicate benign user behavior? (log case 284),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q129,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 129),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q271,Benign Activity,Was this event consistent with normal system activity? (log case 271),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q240,Benign Activity,Was the observed activity non-malicious? (log case 240),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q406,Benign Activity,Was this event consistent with normal system activity? (log case 406),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q196,Suspicious Process,Was a suspicious process execution detected? (log case 196),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q198,Network Anomaly,Was there abnormal port scanning activity? (log case 198),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q033,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 033),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q306,Benign Activity,Was the observed activity non-malicious? (log case 306),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q488,Privilege Escalation,Was an unauthorized privileged command executed? (log case 488),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q459,Benign Activity,Was the observed activity non-malicious? (log case 459),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q430,Benign Activity,Was this event consistent with normal system activity? (log case 430),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q079,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 079),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q057,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 057),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q025,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 025),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q047,Privilege Escalation,Was an unauthorized privileged command executed? (log case 047),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q253,Benign Activity,Was this event consistent with normal system activity? (log case 253),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q261,Benign Activity,Was the observed activity non-malicious? (log case 261),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q071,Privilege Escalation,Was an unauthorized privileged command executed? (log case 071),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q387,Benign Activity,Was the observed activity non-malicious? (log case 387),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q428,Benign Activity,Did the logs indicate benign user behavior? (log case 428),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q205,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 205),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q299,Benign Activity,Did the logs indicate benign user behavior? (log case 299),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q220,Suspicious Process,Was a suspicious process execution detected? (log case 220),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q300,Benign Activity,Was the observed activity non-malicious? (log case 300),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q135,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 135),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q276,Benign Activity,Was the observed activity non-malicious? (log case 276),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q475,Benign Activity,Was this event consistent with normal system activity? (log case 475),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q127,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 127),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q493,Suspicious Process,Was a suspicious process execution detected? (log case 493),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q442,Benign Activity,Was this event consistent with normal system activity? (log case 442),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q074,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 074),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q235,Benign Activity,Was this event consistent with normal system activity? (log case 235),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q330,Benign Activity,Was the observed activity non-malicious? (log case 330),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q203,Privilege Escalation,Was an unauthorized privileged command executed? (log case 203),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q256,Benign Activity,Was this event consistent with normal system activity? (log case 256),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q336,Benign Activity,Was the observed activity non-malicious? (log case 336),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q377,Benign Activity,Did the logs indicate benign user behavior? (log case 377),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q381,Benign Activity,Was the observed activity non-malicious? (log case 381),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q368,Benign Activity,Did the logs indicate benign user behavior? (log case 368),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q291,Benign Activity,Was the observed activity non-malicious? (log case 291),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q109,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 109),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q034,Network Anomaly,Was unusual outbound network traffic detected? (log case 034),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q138,Network Anomaly,Was there abnormal port scanning activity? (log case 138),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q206,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 206),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q162,Network Anomaly,Was there abnormal port scanning activity? (log case 162),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q483,Benign Activity,Was the observed activity non-malicious? (log case 483),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q118,Network Anomaly,Was unusual outbound network traffic detected? (log case 118),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q029,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 029),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q167,Privilege Escalation,Was an unauthorized privileged command executed? (log case 167),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q351,Benign Activity,Was the observed activity non-malicious? (log case 351),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q468,Benign Activity,Was the observed activity non-malicious? (log case 468),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q286,Benign Activity,Was this event consistent with normal system activity? (log case 286),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q353,Benign Activity,Did the logs indicate benign user behavior? (log case 353),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q500,Privilege Escalation,Was an unauthorized privileged command executed? (log case 500),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q139,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 139),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q464,Benign Activity,Did the logs indicate benign user behavior? (log case 464),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q237,Benign Activity,Was the observed activity non-malicious? (log case 237),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q410,Benign Activity,Did the logs indicate benign user behavior? (log case 410),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q495,Network Anomaly,Was there abnormal port scanning activity? (log case 495),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q439,Benign Activity,Was this event consistent with normal system activity? (log case 439),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q274,Benign Activity,Was this event consistent with normal system activity? (log case 274),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q088,Suspicious Process,Was a suspicious process execution detected? (log case 088),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q412,Benign Activity,Was this event consistent with normal system activity? (log case 412),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q312,Benign Activity,Was the observed activity non-malicious? (log case 312),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q037,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 037),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q332,Benign Activity,Did the logs indicate benign user behavior? (log case 332),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q350,Benign Activity,Did the logs indicate benign user behavior? (log case 350),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q471,Benign Activity,Was the observed activity non-malicious? (log case 471),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q137,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 137),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q344,Benign Activity,Did the logs indicate benign user behavior? (log case 344),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q108,Suspicious Process,Was potentially malicious process activity observed? (log case 108),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q182,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 182),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q190,Network Anomaly,Was unusual outbound network traffic detected? (log case 190),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q084,Suspicious Process,Was potentially malicious process activity observed? (log case 084),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q187,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 187),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q326,Benign Activity,Did the logs indicate benign user behavior? (log case 326),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q233,Benign Activity,Did the logs indicate benign user behavior? (log case 233),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q455,Benign Activity,Did the logs indicate benign user behavior? (log case 455),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q448,Benign Activity,Was this event consistent with normal system activity? (log case 448),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q052,Suspicious Process,Was a suspicious process execution detected? (log case 052),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q479,Benign Activity,Did the logs indicate benign user behavior? (log case 479),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q445,Benign Activity,Was this event consistent with normal system activity? (log case 445),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q149,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 149),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q396,Benign Activity,Was the observed activity non-malicious? (log case 396),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q117,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 117),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q339,Benign Activity,Was the observed activity non-malicious? (log case 339),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q024,Suspicious Process,Was potentially malicious process activity observed? (log case 024),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q036,Suspicious Process,Was potentially malicious process activity observed? (log case 036),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q361,Benign Activity,Was this event consistent with normal system activity? (log case 361),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q099,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 099),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q296,Benign Activity,Did the logs indicate benign user behavior? (log case 296),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q186,Network Anomaly,Was there abnormal port scanning activity? (log case 186),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q317,Benign Activity,Did the logs indicate benign user behavior? (log case 317),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q322,Benign Activity,Was this event consistent with normal system activity? (log case 322),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q425,Benign Activity,Did the logs indicate benign user behavior? (log case 425),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q151,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 151),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q283,Benign Activity,Was this event consistent with normal system activity? (log case 283),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q041,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 041),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q194,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 194),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q064,Suspicious Process,Was a suspicious process execution detected? (log case 064),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q275,Benign Activity,Did the logs indicate benign user behavior? (log case 275),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q236,Benign Activity,Did the logs indicate benign user behavior? (log case 236),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q374,Benign Activity,Did the logs indicate benign user behavior? (log case 374),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q023,Privilege Escalation,Was an unauthorized privileged command executed? (log case 023),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q414,Benign Activity,Was the observed activity non-malicious? (log case 414),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q136,Suspicious Process,Was a suspicious process execution detected? (log case 136),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q310,Benign Activity,Was this event consistent with normal system activity? (log case 310),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q177,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 177),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q434,Benign Activity,Did the logs indicate benign user behavior? (log case 434),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q184,Suspicious Process,Was a suspicious process execution detected? (log case 184),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q050,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 050),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q195,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 195),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q481,Benign Activity,Was this event consistent with normal system activity? (log case 481),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q491,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 491),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q173,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 173),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q391,Benign Activity,Was this event consistent with normal system activity? (log case 391),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q111,Privilege Escalation,Did a user gain elevated permissions suspiciously? (log case 111),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q080,Suspicious Process,Did the endpoint execute an unusual command? (log case 080),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q465,Benign Activity,Was the observed activity non-malicious? (log case 465),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q175,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 175),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q484,Benign Activity,Was this event consistent with normal system activity? (log case 484),Benign,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,FP,No
+Q358,Benign Activity,Was this event consistent with normal system activity? (log case 358),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q082,Network Anomaly,Was unusual outbound network traffic detected? (log case 082),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q413,Benign Activity,Did the logs indicate benign user behavior? (log case 413),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q389,Benign Activity,Did the logs indicate benign user behavior? (log case 389),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q004,Suspicious Process,Was a suspicious process execution detected? (log case 004),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q446,Benign Activity,Did the logs indicate benign user behavior? (log case 446),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q415,Benign Activity,Was this event consistent with normal system activity? (log case 415),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q143,Privilege Escalation,Was an unauthorized privileged command executed? (log case 143),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q302,Benign Activity,Did the logs indicate benign user behavior? (log case 302),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q230,Benign Activity,Did the logs indicate benign user behavior? (log case 230),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q113,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 113),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q215,Privilege Escalation,Was an unauthorized privileged command executed? (log case 215),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q487,Network Anomaly,Was unusual outbound network traffic detected? (log case 487),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q360,Benign Activity,Was the observed activity non-malicious? (log case 360),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q333,Benign Activity,Was the observed activity non-malicious? (log case 333),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q367,Benign Activity,Was this event consistent with normal system activity? (log case 367),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q102,Network Anomaly,Was there abnormal port scanning activity? (log case 102),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q288,Benign Activity,Was the observed activity non-malicious? (log case 288),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q014,Network Anomaly,Did the logs indicate suspicious communication with an external host? (log case 014),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q309,Benign Activity,Was the observed activity non-malicious? (log case 309),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q259,Benign Activity,Was this event consistent with normal system activity? (log case 259),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q120,Suspicious Process,Was potentially malicious process activity observed? (log case 120),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q112,Suspicious Process,Was a suspicious process execution detected? (log case 112),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q048,Suspicious Process,Was potentially malicious process activity observed? (log case 048),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q016,Suspicious Process,Was a suspicious process execution detected? (log case 016),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q017,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 017),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q217,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 217),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q303,Benign Activity,Was the observed activity non-malicious? (log case 303),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q045,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 045),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q280,Benign Activity,Was this event consistent with normal system activity? (log case 280),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q457,Benign Activity,Was this event consistent with normal system activity? (log case 457),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q497,Suspicious Process,Did the endpoint execute an unusual command? (log case 497),Attack,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,FN,No
+Q347,Benign Activity,Did the logs indicate benign user behavior? (log case 347),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q053,Authentication Attack,Was there suspicious repeated login activity from a single IP? (log case 053),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q378,Benign Activity,Was the observed activity non-malicious? (log case 378),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q072,Suspicious Process,Was potentially malicious process activity observed? (log case 072),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q115,Privilege Escalation,Did the event indicate possible privilege escalation? (log case 115),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q126,Network Anomaly,Was there abnormal port scanning activity? (log case 126),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q141,Authentication Attack,Did the authentication logs show credential-stuffing behavior? (log case 141),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q380,Benign Activity,Did the logs indicate benign user behavior? (log case 380),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
+Q013,Authentication Attack,Did repeated failed SSH logins indicate a brute-force attack? (log case 013),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q058,Network Anomaly,Was unusual outbound network traffic detected? (log case 058),Attack,Analysis indicates suspicious activity consistent with a potential security threat.,Attack,TP,Yes
+Q328,Benign Activity,Was this event consistent with normal system activity? (log case 328),Benign,Analysis indicates the available evidence is consistent with benign or normal activity.,Benign,TN,Yes
